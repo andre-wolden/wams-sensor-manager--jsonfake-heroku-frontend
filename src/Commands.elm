@@ -10,7 +10,7 @@ import Json.Decode.Pipeline exposing (decode, required)
 
 fetchSensorDbUrl : String
 fetchSensorDbUrl =
-    "http://localhost:4001/"
+    "https://sens-backend-fake.herokuapp.com/"
 
 
 

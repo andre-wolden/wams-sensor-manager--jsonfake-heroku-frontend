@@ -21,7 +21,7 @@ request customer =
         , headers = []
         , method = "POST"
         , timeout = Nothing
-        , url = "http://localhost:4001/customers"
+        , url = "https://sens-backend-fake.herokuapp.com/customers"
         , withCredentials = False
         }
 

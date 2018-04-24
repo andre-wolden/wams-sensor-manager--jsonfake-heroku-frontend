@@ -21,7 +21,7 @@ request project =
         , headers = []
         , method = "POST"
         , timeout = Nothing
-        , url = "http://localhost:4001/projects"
+        , url = "https://sens-backend-fake.herokuapp.com/projects"
         , withCredentials = False
         }
 

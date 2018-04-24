@@ -21,7 +21,7 @@ request mountingLocation =
         , headers = []
         , method = "POST"
         , timeout = Nothing
-        , url = "http://localhost:4001/mounting_locations"
+        , url = "https://sens-backend-fake.herokuapp.com/mounting_locations"
         , withCredentials = False
         }
 

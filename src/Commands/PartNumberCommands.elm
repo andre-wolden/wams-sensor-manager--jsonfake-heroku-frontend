@@ -21,7 +21,7 @@ request partNumber =
         , headers = []
         , method = "POST"
         , timeout = Nothing
-        , url = "http://localhost:4001/part_numbers"
+        , url = "https://sens-backend-fake.herokuapp.com/part_numbers"
         , withCredentials = False
         }
 

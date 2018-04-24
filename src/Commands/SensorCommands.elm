@@ -21,7 +21,7 @@ request sensor =
         , headers = []
         , method = "POST"
         , timeout = Nothing
-        , url = "http://localhost:4001/sensors"
+        , url = "https://sens-backend-fake.herokuapp.com/sensors"
         , withCredentials = False
         }
 
@@ -57,7 +57,7 @@ update sensor =
         , headers = []
         , method = "PUT"
         , timeout = Nothing
-        , url = "http://localhost:4001/sensors" ++ "/" ++ (toString sensor.id)
+        , url = "https://sens-backend-fake.herokuapp.com/sensors" ++ "/" ++ (toString sensor.id)
         , withCredentials = False
         }
 
