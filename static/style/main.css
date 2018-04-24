@@ -1,0 +1,123 @@
+@import "custom";
+@import "~bootstrap/scss/bootstrap";
+
+.elm-overlay {
+	z-index: 1000;
+}
+
+#app-wrapper {
+}
+
+#icon-container {
+    width: 200px;
+    height: 30px;
+
+		list-style-type: none;
+		flex: 1;
+		flex-basis: 25%;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+		justify-content: space-between;
+}
+
+/* resize images */
+#icon-container img {
+    /* width: auto;
+    height: 80px; */
+		margin-bottom: 20px 0;
+		max-width: 100px;
+		border-radius: 999px;
+		max-height: 100px;
+}
+
+#page {
+	margin-top: 10px;
+	margin-left: 120px;
+
+}
+
+.push-to-bottom {
+  position: absolute;
+  bottom: 1%;
+  left: 1%;
+	right: 1%;
+}
+
+.row-bordered:after {
+  content: "";
+  display: block;
+  border-bottom: 1px solid #ccc;
+  margin: 0 15px;
+}
+
+.woldenNavbarLeft {
+	margin-left: 100px;
+}
+
+#mainTable {
+	margin-left: 10px;
+}
+
+
+.expandableRow {
+	cursor: pointer;
+}
+
+.w_background_color_green {
+	background-color: rgba(124,252,0,0.3);
+}
+
+.w_background_color_orange{
+	background-color: rgba(255,165,0,0.3);
+}
+
+.w_background_color_red{
+	background-color: rgba(255,0,0,0.3);
+
+}
+
+.w_hidden {
+	/* display: none; */
+	visibility: collapse;
+	transition: 0.5s;
+	height: 0px;
+	/* font-size: 16; */
+
+}
+
+
+.w_show {
+	/* display: block; */
+	visibility: visible;
+	transition: 0.5s;
+	height: 400px;
+	/* font-size: 16px; */
+}
+
+
+.dropDownInfoBox {
+
+	padding-left: 100px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+	border-radius: 10px;
+	overflow: hidden;
+
+}
+
+.tableHeader {
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: black;
+	font-weight: bold;
+}
+
+
+.infoCard {
+	/* display: inline; */
+	margin-top: 30px;
+	margin-left: 10px;
+	max-width: 300px;
+}

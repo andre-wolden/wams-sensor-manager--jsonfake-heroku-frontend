@@ -1,0 +1,16 @@
+@import "custom";
+@import "~bootstrap/scss/bootstrap";
+
+$bg-color: blue;
+
+body {
+
+}
+
+.elm-overlay {
+	z-index: 1000;
+}
+
+#app-wrapper {
+  background: $bg-color;
+}
