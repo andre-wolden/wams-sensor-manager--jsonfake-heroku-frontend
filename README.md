@@ -1,3 +1,9 @@
-A template to use for new Elm projects.
+# wams-sensor-manager--jsonfake-heroku-frontend
 
-Build with `npm run build`, start development server with `npm run dev`.
+modifisert fra
+
+wams-sensor-manager--jsonfake
+
+for å kunne bli kjørt på heroku, uten å kjøpe flere dynos. må dele opp backend og frontend i to forskjellgie apper. Problematikk rundt hardkodede endepunkter og kjøring lokalt vs produksjon ??
+
+peace out
